@@ -19,6 +19,6 @@ body {
   }
   p {
     color: rgb(0, 255, 30);
-    font-family: verdana;
-    font-size: 20px;
+    text-align: left;
+    
   }
