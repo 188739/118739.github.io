@@ -22,6 +22,9 @@ body {
     text-align: left;
     
   }
-  img {
-  float: right;  
+  .center{ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
