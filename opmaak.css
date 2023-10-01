@@ -76,7 +76,7 @@ body {
             display: block;
           }
           .flexbox{
-            justify-content: center;
+            justify-content: left;
             margin: 0px;
             padding: 10px;
             display: flex;
