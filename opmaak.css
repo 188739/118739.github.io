@@ -90,3 +90,29 @@ body {
             height: 350px;
             border-radius: 15px;
         }
+        #openButton {
+          font-size: 16px;
+          padding: 10px 20px;
+          margin-bottom: 20px;
+        }
+        
+        .video-container {
+          padding-left: 35%;
+          position: relative;
+          width: 100%;
+          height: auto;
+          display: none;
+        }
+        
+        video {
+          max-width: 800px;
+          max-height: 600px;
+          object-fit: cover;
+        }
+        
+        #closeButton {
+          position: absolute;
+          top: 10px;
+          left: 10px;
+          font-size: 14px;
+        }
