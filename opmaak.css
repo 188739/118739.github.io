@@ -82,7 +82,7 @@ body {
             display: flex;
             flex-flow: row wrap;
         }
-        Div1{
+        .Div1{
             text-align: center;
             margin: 5px;
             width: 300px;
