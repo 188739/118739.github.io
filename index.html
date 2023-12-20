@@ -32,8 +32,17 @@
 <div class="video-container" id="videoContainer">
     <video src="uitlegvid.mp4" controls autoplay loop muted></video>
     <button id="closeButton">Close uitleg Video</button>
+
+    <button onclick="openYouTubeVideo()">Bekijk YouTube Video</button>
+
+    <script>
+        function openYouTubeVideo() {
+            var videoId = 'https://www.youtube.com/watch?v=_VjwuMVqCII';
+            var videoUrl = 'https://www.youtube.com/watch?v=' + videoId;
+            window.open(videoUrl, '_blank');
+        }
+    </script>
 </div>
 <script src="script.js"></script>
-<iframe src="https://www.youtube.com/watch?v=_VjwuMVqCII" width="650" height="450" frameborder="no" scrolling="no" ></iframe>
 </body>
 </html>
